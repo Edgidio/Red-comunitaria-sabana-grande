@@ -5,9 +5,24 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1500px) {}
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .main_form {
+        margin-bottom: -47%;
+    }
+}
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sign-in {
+        padding-top: 90px;
+        margin-bottom: 200px;
+        font-family: Poppins;
+
+   }
+   .main_form {
+        margin-left: -113px;
+        margin-right: -120px;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -57,10 +72,12 @@
         padding-bottom: 60px;
     }
     .cont {
-        margin-top: 47%;
+        margin-top: 70px;
     }
     .main_form {
-        margin-bottom: -92%;
+        margin-bottom: -77%;
+        margin-left: -113px;
+        margin-right: -120px;
     }
 }
 
@@ -86,10 +103,10 @@
         padding-bottom: 60px;
     }
     .cont {
-        margin-top: 50%;
+        margin-top: 70px;
     }
     .main_form {
-        margin-bottom: -58%;
+        margin-bottom: -50%;
     }
     .cont span {
         font-size: 20px;
@@ -164,10 +181,10 @@
         line-height: 30px;
     }
     .cont {
-        margin-top: 89%;
+        margin-top: 70px;
     }
     .main_form {
-        margin-bottom: -102%;
+        margin-bottom: -47%;
         padding: 55px 15px;
     }
     .navigation.navbar {
