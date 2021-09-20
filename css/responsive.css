@@ -35,6 +35,11 @@
         line-height: 61px;
         padding-bottom: 18px;
     }
+
+    .text-bg h1 span {
+        font-size: 44px;
+    }
+
     .text-bg span {
         font-size: 28px;
         line-height: 30px;
@@ -151,6 +156,11 @@
         line-height: 55px;
         padding-bottom: 18px;
     }
+
+    .text-bg h1 span {
+        font-size: 41px;
+    }
+
     .text-bg a {
         float: inherit;
         margin-bottom: 30px;
