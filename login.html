@@ -252,14 +252,16 @@
                         <div class="col-sm-12">
                            <input class="inputs" placeholder="Contraseña" id="password" name="password" type="password" >
                         </div>
-                        <div class="col-sm-12">
+                        <!-- err mikrotik-->
+                        $(if error)
                            <div class="col-sm-12">
-                              <div style="text-align: center; background-color: #f84c63 !important; border: none; color:white;" class="alert alert-danger" role="alert">
-                                 ERROR
-                               </div>
+                              <div class="col-sm-12">
+                                 <div style="text-align: center; background-color: #f84c63 !important; border: none; color:white;" class="alert alert-danger" role="alert">
+                                    $(error)
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-
+                        $(endif)
                         <div class="col-sm-12">
                            <button type="submit" class="send">INICIAR SESSION</button>
                         </div>
@@ -296,22 +298,23 @@
       <!-- end footer -->
       <!-- Javascript files-->
       <script>
-
          let click = false;
-
          document.querySelector('.navbar-toggler').addEventListener('click', ()=> {
-
             if (click == true) {
                document.querySelector('#navbarsExample04').classList.remove('class', 'show')
                click = !click
                return
             }
-
             document.querySelector('#navbarsExample04').classList.add('class', 'show')
-
             click = !click
          })
       </script>
+      <!-- script mikrotik -->
+      <script src="JS/index.js"></script>
+      <script type="text/javascript">
+            document.login.username.focus();
+      </script>
+      <!-- end script mikrotik -->
    </body>
 </html>
 
